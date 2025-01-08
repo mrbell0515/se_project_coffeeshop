@@ -16,11 +16,6 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .form__button {
@@ -29,11 +24,14 @@
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  background-color: #187adc;
+  color: #fff;
+  cursor: pointer;
+  transition: bacground-color 8.5s;
+}
+
+.form__button-hover {
+  background-color: #3f96f3;
 }
 
 .form__checkbox {
@@ -46,9 +44,4 @@
   display: flex;
   gap: 12px;
   justify-content: center;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
