@@ -10,7 +10,7 @@
 
 .form__input {
   display: block;
-  width: 100px;
+  width: 100%;
   padding: 15px 20px;
   box-sizing: border-box;
   margin: 8px 0 32px;
